@@ -1,0 +1,5515 @@
+key_matrix_pinky_bottom:
+  x: 100
+  'y': -100
+  r: 2.5
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: pinky_bottom
+    name: key_matrix_pinky_bottom
+    column_net: Col0
+    tags:
+      - key
+      - pinky
+    row_net: Row3
+    key: &ref_0
+      led_prev: LED3
+      led_next: LED4
+    zone: &ref_3
+      columns:
+        pinky: &ref_1
+          key:
+            column_net: Col0
+            tags:
+              - key
+              - pinky
+          rows:
+            bottom:
+              key: *ref_0
+            home:
+              key: &ref_2
+                led_prev: LED12
+                led_next: LED13
+            top:
+              key: &ref_4
+                led_prev: LED13
+                led_next: LED14
+            number:
+              key: &ref_5
+                led_prev: LED22
+                led_next: LED_BACKLIGHT_1
+          name: pinky
+        ring: &ref_7
+          key:
+            splay: -2.5
+            origin:
+              - -12
+              - -19
+            stagger: 7
+            column_net: Col1
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key: &ref_6
+                led_prev: LED4
+                led_next: LED5
+            home:
+              key: &ref_8
+                led_prev: LED11
+                led_next: LED12
+            top:
+              key: &ref_9
+                led_prev: LED14
+                led_next: LED15
+            number:
+              key: &ref_10
+                led_prev: LED21
+                led_next: LED22
+          name: ring
+        middle: &ref_12
+          key:
+            stagger: 5
+            column_net: Col2
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key: &ref_11
+                led_prev: LED5
+                led_next: LED6
+            home:
+              key: &ref_13
+                led_prev: LED10
+                led_next: LED11
+            top:
+              key: &ref_14
+                led_prev: LED15
+                led_next: LED16
+            number:
+              key: &ref_15
+                led_prev: LED20
+                led_next: LED21
+          name: middle
+        index: &ref_17
+          key:
+            stagger: -6
+            column_net: Col3
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key: &ref_16
+                led_prev: LED6
+                led_next: LED7
+            home:
+              key: &ref_18
+                led_prev: LED9
+                led_next: LED10
+            top:
+              key: &ref_19
+                led_prev: LED16
+                led_next: LED17
+            number:
+              key: &ref_20
+                led_prev: LED19
+                led_next: LED20
+          name: index
+        inner: &ref_22
+          key:
+            stagger: -2
+            column_net: Col4
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key: &ref_21
+                led_prev: LED7
+                led_next: LED8
+            home:
+              key: &ref_23
+                led_prev: LED8
+                led_next: LED9
+            top:
+              key: &ref_24
+                led_prev: LED17
+                led_next: LED18
+            number:
+              key: &ref_25
+                led_prev: LED18
+                led_next: LED19
+          name: inner
+      rows:
+        bottom:
+          row_net: Row3
+        home:
+          row_net: Row2
+        top:
+          row_net: Row1
+        number:
+          row_net: Row0
+      name: key_matrix
+    col: *ref_1
+    row: bottom
+    mirrored: false
+    bind:
+      - 10
+      - 0
+      - 0
+      - 0
+key_matrix_pinky_home:
+  x: 99.1712316
+  'y': -81.0180838
+  r: 2.5
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: pinky_home
+    name: key_matrix_pinky_home
+    column_net: Col0
+    tags:
+      - key
+      - pinky
+    row_net: Row2
+    key: *ref_2
+    zone: *ref_3
+    col: *ref_1
+    row: home
+    mirrored: false
+    bind:
+      - 10
+      - 10
+      - 10
+      - 0
+key_matrix_pinky_top:
+  x: 98.3424632
+  'y': -62.0361676
+  r: 2.5
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: pinky_top
+    name: key_matrix_pinky_top
+    column_net: Col0
+    tags:
+      - key
+      - pinky
+    row_net: Row1
+    key: *ref_4
+    zone: *ref_3
+    col: *ref_1
+    row: top
+    mirrored: false
+    bind:
+      - 10
+      - 10
+      - 10
+      - 0
+key_matrix_pinky_number:
+  x: 97.5136948
+  'y': -43.0542514
+  r: 2.5
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: pinky_number
+    name: key_matrix_pinky_number
+    column_net: Col0
+    tags:
+      - key
+      - pinky
+    row_net: Row0
+    key: *ref_5
+    zone: *ref_3
+    col: *ref_1
+    row: number
+    mirrored: false
+    bind:
+      - 0
+      - 10
+      - 10
+      - 0
+key_matrix_ring_bottom:
+  x: 119.5167702
+  'y': -92.683243
+  r: 0
+  meta:
+    stagger: 7
+    spread: 19
+    splay: -2.5
+    origin:
+      - -12
+      - -19
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: ring_bottom
+    name: key_matrix_ring_bottom
+    column_net: Col1
+    tags:
+      - key
+      - main
+    row_net: Row3
+    key: *ref_6
+    zone: *ref_3
+    col: *ref_7
+    row: bottom
+    mirrored: false
+    bind:
+      - 10
+      - 0
+      - 0
+      - 10
+key_matrix_ring_home:
+  x: 119.5167702
+  'y': -73.683243
+  r: 0
+  meta:
+    stagger: 7
+    spread: 19
+    splay: -2.5
+    origin:
+      - -12
+      - -19
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: ring_home
+    name: key_matrix_ring_home
+    column_net: Col1
+    tags:
+      - key
+      - main
+    row_net: Row2
+    key: *ref_8
+    zone: *ref_3
+    col: *ref_7
+    row: home
+    mirrored: false
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+key_matrix_ring_top:
+  x: 119.5167702
+  'y': -54.683243000000004
+  r: 0
+  meta:
+    stagger: 7
+    spread: 19
+    splay: -2.5
+    origin:
+      - -12
+      - -19
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: ring_top
+    name: key_matrix_ring_top
+    column_net: Col1
+    tags:
+      - key
+      - main
+    row_net: Row1
+    key: *ref_9
+    zone: *ref_3
+    col: *ref_7
+    row: top
+    mirrored: false
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+key_matrix_ring_number:
+  x: 119.5167702
+  'y': -35.683243000000004
+  r: 0
+  meta:
+    stagger: 7
+    spread: 19
+    splay: -2.5
+    origin:
+      - -12
+      - -19
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: ring_number
+    name: key_matrix_ring_number
+    column_net: Col1
+    tags:
+      - key
+      - main
+    row_net: Row0
+    key: *ref_10
+    zone: *ref_3
+    col: *ref_7
+    row: number
+    mirrored: false
+    bind:
+      - 0
+      - 10
+      - 10
+      - 0
+key_matrix_middle_bottom:
+  x: 138.5167702
+  'y': -87.6832429
+  r: 0
+  meta:
+    stagger: 5
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: middle_bottom
+    name: key_matrix_middle_bottom
+    column_net: Col2
+    tags:
+      - key
+      - main
+    row_net: Row3
+    key: *ref_11
+    zone: *ref_3
+    col: *ref_12
+    row: bottom
+    mirrored: false
+    bind:
+      - 10
+      - 10
+      - 0
+      - 10
+key_matrix_middle_home:
+  x: 138.5167702
+  'y': -68.6832429
+  r: 0
+  meta:
+    stagger: 5
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: middle_home
+    name: key_matrix_middle_home
+    column_net: Col2
+    tags:
+      - key
+      - main
+    row_net: Row2
+    key: *ref_13
+    zone: *ref_3
+    col: *ref_12
+    row: home
+    mirrored: false
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+key_matrix_middle_top:
+  x: 138.5167702
+  'y': -49.683242899999996
+  r: 0
+  meta:
+    stagger: 5
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: middle_top
+    name: key_matrix_middle_top
+    column_net: Col2
+    tags:
+      - key
+      - main
+    row_net: Row1
+    key: *ref_14
+    zone: *ref_3
+    col: *ref_12
+    row: top
+    mirrored: false
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+key_matrix_middle_number:
+  x: 138.5167702
+  'y': -30.683242899999996
+  r: 0
+  meta:
+    stagger: 5
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: middle_number
+    name: key_matrix_middle_number
+    column_net: Col2
+    tags:
+      - key
+      - main
+    row_net: Row0
+    key: *ref_15
+    zone: *ref_3
+    col: *ref_12
+    row: number
+    mirrored: false
+    bind:
+      - 0
+      - 0
+      - 10
+      - 0
+key_matrix_index_bottom:
+  x: 157.5167702
+  'y': -93.683243
+  r: 0
+  meta:
+    stagger: -6
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: index_bottom
+    name: key_matrix_index_bottom
+    column_net: Col3
+    tags:
+      - key
+      - main
+    row_net: Row3
+    key: *ref_16
+    zone: *ref_3
+    col: *ref_17
+    row: bottom
+    mirrored: false
+    bind:
+      - 10
+      - 10
+      - 0
+      - 0
+key_matrix_index_home:
+  x: 157.5167702
+  'y': -74.683243
+  r: 0
+  meta:
+    stagger: -6
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: index_home
+    name: key_matrix_index_home
+    column_net: Col3
+    tags:
+      - key
+      - main
+    row_net: Row2
+    key: *ref_18
+    zone: *ref_3
+    col: *ref_17
+    row: home
+    mirrored: false
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+key_matrix_index_top:
+  x: 157.5167702
+  'y': -55.683243000000004
+  r: 0
+  meta:
+    stagger: -6
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: index_top
+    name: key_matrix_index_top
+    column_net: Col3
+    tags:
+      - key
+      - main
+    row_net: Row1
+    key: *ref_19
+    zone: *ref_3
+    col: *ref_17
+    row: top
+    mirrored: false
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+key_matrix_index_number:
+  x: 157.5167702
+  'y': -36.683243000000004
+  r: 0
+  meta:
+    stagger: -6
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: index_number
+    name: key_matrix_index_number
+    column_net: Col3
+    tags:
+      - key
+      - main
+    row_net: Row0
+    key: *ref_20
+    zone: *ref_3
+    col: *ref_17
+    row: number
+    mirrored: false
+    bind:
+      - 0
+      - 0
+      - 10
+      - 10
+key_matrix_inner_bottom:
+  x: 176.5167702
+  'y': -95.68324299999999
+  r: 0
+  meta:
+    stagger: -2
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: inner_bottom
+    name: key_matrix_inner_bottom
+    column_net: Col4
+    tags:
+      - key
+      - main
+    row_net: Row3
+    key: *ref_21
+    zone: *ref_3
+    col: *ref_22
+    row: bottom
+    mirrored: false
+    bind:
+      - 10
+      - 0
+      - 0
+      - 0
+key_matrix_inner_home:
+  x: 176.5167702
+  'y': -76.68324299999999
+  r: 0
+  meta:
+    stagger: -2
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: inner_home
+    name: key_matrix_inner_home
+    column_net: Col4
+    tags:
+      - key
+      - main
+    row_net: Row2
+    key: *ref_23
+    zone: *ref_3
+    col: *ref_22
+    row: home
+    mirrored: false
+    bind:
+      - 10
+      - 0
+      - 10
+      - 10
+key_matrix_inner_top:
+  x: 176.5167702
+  'y': -57.68324299999999
+  r: 0
+  meta:
+    stagger: -2
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: inner_top
+    name: key_matrix_inner_top
+    column_net: Col4
+    tags:
+      - key
+      - main
+    row_net: Row1
+    key: *ref_24
+    zone: *ref_3
+    col: *ref_22
+    row: top
+    mirrored: false
+    bind:
+      - 10
+      - 0
+      - 10
+      - 10
+key_matrix_inner_number:
+  x: 176.5167702
+  'y': -38.68324299999999
+  r: 0
+  meta:
+    stagger: -2
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: inner_number
+    name: key_matrix_inner_number
+    column_net: Col4
+    tags:
+      - key
+      - main
+    row_net: Row0
+    key: *ref_25
+    zone: *ref_3
+    col: *ref_22
+    row: number
+    mirrored: false
+    bind:
+      - 0
+      - 0
+      - 10
+      - 10
+mirror_key_matrix_pinky_bottom:
+  x: 400
+  'y': -100
+  r: -2.5
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mirror_pinky_bottom
+    name: mirror_key_matrix_pinky_bottom
+    column_net: Col0
+    tags:
+      - key
+      - pinky
+    row_net: Row3
+    key:
+      led_prev: LED3
+      led_next: LED4
+    zone:
+      columns:
+        pinky:
+          key:
+            column_net: Col0
+            tags:
+              - key
+              - pinky
+          rows:
+            bottom:
+              key:
+                led_prev: LED3
+                led_next: LED4
+            home:
+              key:
+                led_prev: LED12
+                led_next: LED13
+            top:
+              key:
+                led_prev: LED13
+                led_next: LED14
+            number:
+              key:
+                led_prev: LED22
+                led_next: LED_BACKLIGHT_1
+          name: pinky
+        ring:
+          key:
+            splay: -2.5
+            origin:
+              - -12
+              - -19
+            stagger: 7
+            column_net: Col1
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED4
+                led_next: LED5
+            home:
+              key:
+                led_prev: LED11
+                led_next: LED12
+            top:
+              key:
+                led_prev: LED14
+                led_next: LED15
+            number:
+              key:
+                led_prev: LED21
+                led_next: LED22
+          name: ring
+        middle:
+          key:
+            stagger: 5
+            column_net: Col2
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED5
+                led_next: LED6
+            home:
+              key:
+                led_prev: LED10
+                led_next: LED11
+            top:
+              key:
+                led_prev: LED15
+                led_next: LED16
+            number:
+              key:
+                led_prev: LED20
+                led_next: LED21
+          name: middle
+        index:
+          key:
+            stagger: -6
+            column_net: Col3
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED6
+                led_next: LED7
+            home:
+              key:
+                led_prev: LED9
+                led_next: LED10
+            top:
+              key:
+                led_prev: LED16
+                led_next: LED17
+            number:
+              key:
+                led_prev: LED19
+                led_next: LED20
+          name: index
+        inner:
+          key:
+            stagger: -2
+            column_net: Col4
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED7
+                led_next: LED8
+            home:
+              key:
+                led_prev: LED8
+                led_next: LED9
+            top:
+              key:
+                led_prev: LED17
+                led_next: LED18
+            number:
+              key:
+                led_prev: LED18
+                led_next: LED19
+          name: inner
+      rows:
+        bottom:
+          row_net: Row3
+        home:
+          row_net: Row2
+        top:
+          row_net: Row1
+        number:
+          row_net: Row0
+      name: key_matrix
+    col:
+      key:
+        column_net: Col0
+        tags:
+          - key
+          - pinky
+      rows:
+        bottom:
+          key:
+            led_prev: LED3
+            led_next: LED4
+        home:
+          key:
+            led_prev: LED12
+            led_next: LED13
+        top:
+          key:
+            led_prev: LED13
+            led_next: LED14
+        number:
+          key:
+            led_prev: LED22
+            led_next: LED_BACKLIGHT_1
+      name: pinky
+    row: bottom
+    mirrored: true
+    bind:
+      - 10
+      - 0
+      - 0
+      - 0
+mirror_key_matrix_pinky_home:
+  x: 400.8287684
+  'y': -81.0180838
+  r: -2.5
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mirror_pinky_home
+    name: mirror_key_matrix_pinky_home
+    column_net: Col0
+    tags:
+      - key
+      - pinky
+    row_net: Row2
+    key:
+      led_prev: LED12
+      led_next: LED13
+    zone:
+      columns:
+        pinky:
+          key:
+            column_net: Col0
+            tags:
+              - key
+              - pinky
+          rows:
+            bottom:
+              key:
+                led_prev: LED3
+                led_next: LED4
+            home:
+              key:
+                led_prev: LED12
+                led_next: LED13
+            top:
+              key:
+                led_prev: LED13
+                led_next: LED14
+            number:
+              key:
+                led_prev: LED22
+                led_next: LED_BACKLIGHT_1
+          name: pinky
+        ring:
+          key:
+            splay: -2.5
+            origin:
+              - -12
+              - -19
+            stagger: 7
+            column_net: Col1
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED4
+                led_next: LED5
+            home:
+              key:
+                led_prev: LED11
+                led_next: LED12
+            top:
+              key:
+                led_prev: LED14
+                led_next: LED15
+            number:
+              key:
+                led_prev: LED21
+                led_next: LED22
+          name: ring
+        middle:
+          key:
+            stagger: 5
+            column_net: Col2
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED5
+                led_next: LED6
+            home:
+              key:
+                led_prev: LED10
+                led_next: LED11
+            top:
+              key:
+                led_prev: LED15
+                led_next: LED16
+            number:
+              key:
+                led_prev: LED20
+                led_next: LED21
+          name: middle
+        index:
+          key:
+            stagger: -6
+            column_net: Col3
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED6
+                led_next: LED7
+            home:
+              key:
+                led_prev: LED9
+                led_next: LED10
+            top:
+              key:
+                led_prev: LED16
+                led_next: LED17
+            number:
+              key:
+                led_prev: LED19
+                led_next: LED20
+          name: index
+        inner:
+          key:
+            stagger: -2
+            column_net: Col4
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED7
+                led_next: LED8
+            home:
+              key:
+                led_prev: LED8
+                led_next: LED9
+            top:
+              key:
+                led_prev: LED17
+                led_next: LED18
+            number:
+              key:
+                led_prev: LED18
+                led_next: LED19
+          name: inner
+      rows:
+        bottom:
+          row_net: Row3
+        home:
+          row_net: Row2
+        top:
+          row_net: Row1
+        number:
+          row_net: Row0
+      name: key_matrix
+    col:
+      key:
+        column_net: Col0
+        tags:
+          - key
+          - pinky
+      rows:
+        bottom:
+          key:
+            led_prev: LED3
+            led_next: LED4
+        home:
+          key:
+            led_prev: LED12
+            led_next: LED13
+        top:
+          key:
+            led_prev: LED13
+            led_next: LED14
+        number:
+          key:
+            led_prev: LED22
+            led_next: LED_BACKLIGHT_1
+      name: pinky
+    row: home
+    mirrored: true
+    bind:
+      - 10
+      - 10
+      - 10
+      - 0
+mirror_key_matrix_pinky_top:
+  x: 401.6575368
+  'y': -62.0361676
+  r: -2.5
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mirror_pinky_top
+    name: mirror_key_matrix_pinky_top
+    column_net: Col0
+    tags:
+      - key
+      - pinky
+    row_net: Row1
+    key:
+      led_prev: LED13
+      led_next: LED14
+    zone:
+      columns:
+        pinky:
+          key:
+            column_net: Col0
+            tags:
+              - key
+              - pinky
+          rows:
+            bottom:
+              key:
+                led_prev: LED3
+                led_next: LED4
+            home:
+              key:
+                led_prev: LED12
+                led_next: LED13
+            top:
+              key:
+                led_prev: LED13
+                led_next: LED14
+            number:
+              key:
+                led_prev: LED22
+                led_next: LED_BACKLIGHT_1
+          name: pinky
+        ring:
+          key:
+            splay: -2.5
+            origin:
+              - -12
+              - -19
+            stagger: 7
+            column_net: Col1
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED4
+                led_next: LED5
+            home:
+              key:
+                led_prev: LED11
+                led_next: LED12
+            top:
+              key:
+                led_prev: LED14
+                led_next: LED15
+            number:
+              key:
+                led_prev: LED21
+                led_next: LED22
+          name: ring
+        middle:
+          key:
+            stagger: 5
+            column_net: Col2
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED5
+                led_next: LED6
+            home:
+              key:
+                led_prev: LED10
+                led_next: LED11
+            top:
+              key:
+                led_prev: LED15
+                led_next: LED16
+            number:
+              key:
+                led_prev: LED20
+                led_next: LED21
+          name: middle
+        index:
+          key:
+            stagger: -6
+            column_net: Col3
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED6
+                led_next: LED7
+            home:
+              key:
+                led_prev: LED9
+                led_next: LED10
+            top:
+              key:
+                led_prev: LED16
+                led_next: LED17
+            number:
+              key:
+                led_prev: LED19
+                led_next: LED20
+          name: index
+        inner:
+          key:
+            stagger: -2
+            column_net: Col4
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED7
+                led_next: LED8
+            home:
+              key:
+                led_prev: LED8
+                led_next: LED9
+            top:
+              key:
+                led_prev: LED17
+                led_next: LED18
+            number:
+              key:
+                led_prev: LED18
+                led_next: LED19
+          name: inner
+      rows:
+        bottom:
+          row_net: Row3
+        home:
+          row_net: Row2
+        top:
+          row_net: Row1
+        number:
+          row_net: Row0
+      name: key_matrix
+    col:
+      key:
+        column_net: Col0
+        tags:
+          - key
+          - pinky
+      rows:
+        bottom:
+          key:
+            led_prev: LED3
+            led_next: LED4
+        home:
+          key:
+            led_prev: LED12
+            led_next: LED13
+        top:
+          key:
+            led_prev: LED13
+            led_next: LED14
+        number:
+          key:
+            led_prev: LED22
+            led_next: LED_BACKLIGHT_1
+      name: pinky
+    row: top
+    mirrored: true
+    bind:
+      - 10
+      - 10
+      - 10
+      - 0
+mirror_key_matrix_pinky_number:
+  x: 402.4863052
+  'y': -43.0542514
+  r: -2.5
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mirror_pinky_number
+    name: mirror_key_matrix_pinky_number
+    column_net: Col0
+    tags:
+      - key
+      - pinky
+    row_net: Row0
+    key:
+      led_prev: LED22
+      led_next: LED_BACKLIGHT_1
+    zone:
+      columns:
+        pinky:
+          key:
+            column_net: Col0
+            tags:
+              - key
+              - pinky
+          rows:
+            bottom:
+              key:
+                led_prev: LED3
+                led_next: LED4
+            home:
+              key:
+                led_prev: LED12
+                led_next: LED13
+            top:
+              key:
+                led_prev: LED13
+                led_next: LED14
+            number:
+              key:
+                led_prev: LED22
+                led_next: LED_BACKLIGHT_1
+          name: pinky
+        ring:
+          key:
+            splay: -2.5
+            origin:
+              - -12
+              - -19
+            stagger: 7
+            column_net: Col1
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED4
+                led_next: LED5
+            home:
+              key:
+                led_prev: LED11
+                led_next: LED12
+            top:
+              key:
+                led_prev: LED14
+                led_next: LED15
+            number:
+              key:
+                led_prev: LED21
+                led_next: LED22
+          name: ring
+        middle:
+          key:
+            stagger: 5
+            column_net: Col2
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED5
+                led_next: LED6
+            home:
+              key:
+                led_prev: LED10
+                led_next: LED11
+            top:
+              key:
+                led_prev: LED15
+                led_next: LED16
+            number:
+              key:
+                led_prev: LED20
+                led_next: LED21
+          name: middle
+        index:
+          key:
+            stagger: -6
+            column_net: Col3
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED6
+                led_next: LED7
+            home:
+              key:
+                led_prev: LED9
+                led_next: LED10
+            top:
+              key:
+                led_prev: LED16
+                led_next: LED17
+            number:
+              key:
+                led_prev: LED19
+                led_next: LED20
+          name: index
+        inner:
+          key:
+            stagger: -2
+            column_net: Col4
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED7
+                led_next: LED8
+            home:
+              key:
+                led_prev: LED8
+                led_next: LED9
+            top:
+              key:
+                led_prev: LED17
+                led_next: LED18
+            number:
+              key:
+                led_prev: LED18
+                led_next: LED19
+          name: inner
+      rows:
+        bottom:
+          row_net: Row3
+        home:
+          row_net: Row2
+        top:
+          row_net: Row1
+        number:
+          row_net: Row0
+      name: key_matrix
+    col:
+      key:
+        column_net: Col0
+        tags:
+          - key
+          - pinky
+      rows:
+        bottom:
+          key:
+            led_prev: LED3
+            led_next: LED4
+        home:
+          key:
+            led_prev: LED12
+            led_next: LED13
+        top:
+          key:
+            led_prev: LED13
+            led_next: LED14
+        number:
+          key:
+            led_prev: LED22
+            led_next: LED_BACKLIGHT_1
+      name: pinky
+    row: number
+    mirrored: true
+    bind:
+      - 0
+      - 10
+      - 10
+      - 0
+mirror_key_matrix_ring_bottom:
+  x: 380.4832298
+  'y': -92.683243
+  r: -0.0
+  meta:
+    stagger: 7
+    spread: 19
+    splay: -2.5
+    origin:
+      - -12
+      - -19
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mirror_ring_bottom
+    name: mirror_key_matrix_ring_bottom
+    column_net: Col1
+    tags:
+      - key
+      - main
+    row_net: Row3
+    key:
+      led_prev: LED4
+      led_next: LED5
+    zone:
+      columns:
+        pinky:
+          key:
+            column_net: Col0
+            tags:
+              - key
+              - pinky
+          rows:
+            bottom:
+              key:
+                led_prev: LED3
+                led_next: LED4
+            home:
+              key:
+                led_prev: LED12
+                led_next: LED13
+            top:
+              key:
+                led_prev: LED13
+                led_next: LED14
+            number:
+              key:
+                led_prev: LED22
+                led_next: LED_BACKLIGHT_1
+          name: pinky
+        ring:
+          key:
+            splay: -2.5
+            origin:
+              - -12
+              - -19
+            stagger: 7
+            column_net: Col1
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED4
+                led_next: LED5
+            home:
+              key:
+                led_prev: LED11
+                led_next: LED12
+            top:
+              key:
+                led_prev: LED14
+                led_next: LED15
+            number:
+              key:
+                led_prev: LED21
+                led_next: LED22
+          name: ring
+        middle:
+          key:
+            stagger: 5
+            column_net: Col2
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED5
+                led_next: LED6
+            home:
+              key:
+                led_prev: LED10
+                led_next: LED11
+            top:
+              key:
+                led_prev: LED15
+                led_next: LED16
+            number:
+              key:
+                led_prev: LED20
+                led_next: LED21
+          name: middle
+        index:
+          key:
+            stagger: -6
+            column_net: Col3
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED6
+                led_next: LED7
+            home:
+              key:
+                led_prev: LED9
+                led_next: LED10
+            top:
+              key:
+                led_prev: LED16
+                led_next: LED17
+            number:
+              key:
+                led_prev: LED19
+                led_next: LED20
+          name: index
+        inner:
+          key:
+            stagger: -2
+            column_net: Col4
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED7
+                led_next: LED8
+            home:
+              key:
+                led_prev: LED8
+                led_next: LED9
+            top:
+              key:
+                led_prev: LED17
+                led_next: LED18
+            number:
+              key:
+                led_prev: LED18
+                led_next: LED19
+          name: inner
+      rows:
+        bottom:
+          row_net: Row3
+        home:
+          row_net: Row2
+        top:
+          row_net: Row1
+        number:
+          row_net: Row0
+      name: key_matrix
+    col:
+      key:
+        splay: -2.5
+        origin:
+          - -12
+          - -19
+        stagger: 7
+        column_net: Col1
+        tags:
+          - key
+          - main
+      rows:
+        bottom:
+          key:
+            led_prev: LED4
+            led_next: LED5
+        home:
+          key:
+            led_prev: LED11
+            led_next: LED12
+        top:
+          key:
+            led_prev: LED14
+            led_next: LED15
+        number:
+          key:
+            led_prev: LED21
+            led_next: LED22
+      name: ring
+    row: bottom
+    mirrored: true
+    bind:
+      - 10
+      - 0
+      - 0
+      - 10
+mirror_key_matrix_ring_home:
+  x: 380.4832298
+  'y': -73.683243
+  r: -0.0
+  meta:
+    stagger: 7
+    spread: 19
+    splay: -2.5
+    origin:
+      - -12
+      - -19
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mirror_ring_home
+    name: mirror_key_matrix_ring_home
+    column_net: Col1
+    tags:
+      - key
+      - main
+    row_net: Row2
+    key:
+      led_prev: LED11
+      led_next: LED12
+    zone:
+      columns:
+        pinky:
+          key:
+            column_net: Col0
+            tags:
+              - key
+              - pinky
+          rows:
+            bottom:
+              key:
+                led_prev: LED3
+                led_next: LED4
+            home:
+              key:
+                led_prev: LED12
+                led_next: LED13
+            top:
+              key:
+                led_prev: LED13
+                led_next: LED14
+            number:
+              key:
+                led_prev: LED22
+                led_next: LED_BACKLIGHT_1
+          name: pinky
+        ring:
+          key:
+            splay: -2.5
+            origin:
+              - -12
+              - -19
+            stagger: 7
+            column_net: Col1
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED4
+                led_next: LED5
+            home:
+              key:
+                led_prev: LED11
+                led_next: LED12
+            top:
+              key:
+                led_prev: LED14
+                led_next: LED15
+            number:
+              key:
+                led_prev: LED21
+                led_next: LED22
+          name: ring
+        middle:
+          key:
+            stagger: 5
+            column_net: Col2
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED5
+                led_next: LED6
+            home:
+              key:
+                led_prev: LED10
+                led_next: LED11
+            top:
+              key:
+                led_prev: LED15
+                led_next: LED16
+            number:
+              key:
+                led_prev: LED20
+                led_next: LED21
+          name: middle
+        index:
+          key:
+            stagger: -6
+            column_net: Col3
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED6
+                led_next: LED7
+            home:
+              key:
+                led_prev: LED9
+                led_next: LED10
+            top:
+              key:
+                led_prev: LED16
+                led_next: LED17
+            number:
+              key:
+                led_prev: LED19
+                led_next: LED20
+          name: index
+        inner:
+          key:
+            stagger: -2
+            column_net: Col4
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED7
+                led_next: LED8
+            home:
+              key:
+                led_prev: LED8
+                led_next: LED9
+            top:
+              key:
+                led_prev: LED17
+                led_next: LED18
+            number:
+              key:
+                led_prev: LED18
+                led_next: LED19
+          name: inner
+      rows:
+        bottom:
+          row_net: Row3
+        home:
+          row_net: Row2
+        top:
+          row_net: Row1
+        number:
+          row_net: Row0
+      name: key_matrix
+    col:
+      key:
+        splay: -2.5
+        origin:
+          - -12
+          - -19
+        stagger: 7
+        column_net: Col1
+        tags:
+          - key
+          - main
+      rows:
+        bottom:
+          key:
+            led_prev: LED4
+            led_next: LED5
+        home:
+          key:
+            led_prev: LED11
+            led_next: LED12
+        top:
+          key:
+            led_prev: LED14
+            led_next: LED15
+        number:
+          key:
+            led_prev: LED21
+            led_next: LED22
+      name: ring
+    row: home
+    mirrored: true
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+mirror_key_matrix_ring_top:
+  x: 380.4832298
+  'y': -54.683243000000004
+  r: -0.0
+  meta:
+    stagger: 7
+    spread: 19
+    splay: -2.5
+    origin:
+      - -12
+      - -19
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mirror_ring_top
+    name: mirror_key_matrix_ring_top
+    column_net: Col1
+    tags:
+      - key
+      - main
+    row_net: Row1
+    key:
+      led_prev: LED14
+      led_next: LED15
+    zone:
+      columns:
+        pinky:
+          key:
+            column_net: Col0
+            tags:
+              - key
+              - pinky
+          rows:
+            bottom:
+              key:
+                led_prev: LED3
+                led_next: LED4
+            home:
+              key:
+                led_prev: LED12
+                led_next: LED13
+            top:
+              key:
+                led_prev: LED13
+                led_next: LED14
+            number:
+              key:
+                led_prev: LED22
+                led_next: LED_BACKLIGHT_1
+          name: pinky
+        ring:
+          key:
+            splay: -2.5
+            origin:
+              - -12
+              - -19
+            stagger: 7
+            column_net: Col1
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED4
+                led_next: LED5
+            home:
+              key:
+                led_prev: LED11
+                led_next: LED12
+            top:
+              key:
+                led_prev: LED14
+                led_next: LED15
+            number:
+              key:
+                led_prev: LED21
+                led_next: LED22
+          name: ring
+        middle:
+          key:
+            stagger: 5
+            column_net: Col2
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED5
+                led_next: LED6
+            home:
+              key:
+                led_prev: LED10
+                led_next: LED11
+            top:
+              key:
+                led_prev: LED15
+                led_next: LED16
+            number:
+              key:
+                led_prev: LED20
+                led_next: LED21
+          name: middle
+        index:
+          key:
+            stagger: -6
+            column_net: Col3
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED6
+                led_next: LED7
+            home:
+              key:
+                led_prev: LED9
+                led_next: LED10
+            top:
+              key:
+                led_prev: LED16
+                led_next: LED17
+            number:
+              key:
+                led_prev: LED19
+                led_next: LED20
+          name: index
+        inner:
+          key:
+            stagger: -2
+            column_net: Col4
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED7
+                led_next: LED8
+            home:
+              key:
+                led_prev: LED8
+                led_next: LED9
+            top:
+              key:
+                led_prev: LED17
+                led_next: LED18
+            number:
+              key:
+                led_prev: LED18
+                led_next: LED19
+          name: inner
+      rows:
+        bottom:
+          row_net: Row3
+        home:
+          row_net: Row2
+        top:
+          row_net: Row1
+        number:
+          row_net: Row0
+      name: key_matrix
+    col:
+      key:
+        splay: -2.5
+        origin:
+          - -12
+          - -19
+        stagger: 7
+        column_net: Col1
+        tags:
+          - key
+          - main
+      rows:
+        bottom:
+          key:
+            led_prev: LED4
+            led_next: LED5
+        home:
+          key:
+            led_prev: LED11
+            led_next: LED12
+        top:
+          key:
+            led_prev: LED14
+            led_next: LED15
+        number:
+          key:
+            led_prev: LED21
+            led_next: LED22
+      name: ring
+    row: top
+    mirrored: true
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+mirror_key_matrix_ring_number:
+  x: 380.4832298
+  'y': -35.683243000000004
+  r: -0.0
+  meta:
+    stagger: 7
+    spread: 19
+    splay: -2.5
+    origin:
+      - -12
+      - -19
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mirror_ring_number
+    name: mirror_key_matrix_ring_number
+    column_net: Col1
+    tags:
+      - key
+      - main
+    row_net: Row0
+    key:
+      led_prev: LED21
+      led_next: LED22
+    zone:
+      columns:
+        pinky:
+          key:
+            column_net: Col0
+            tags:
+              - key
+              - pinky
+          rows:
+            bottom:
+              key:
+                led_prev: LED3
+                led_next: LED4
+            home:
+              key:
+                led_prev: LED12
+                led_next: LED13
+            top:
+              key:
+                led_prev: LED13
+                led_next: LED14
+            number:
+              key:
+                led_prev: LED22
+                led_next: LED_BACKLIGHT_1
+          name: pinky
+        ring:
+          key:
+            splay: -2.5
+            origin:
+              - -12
+              - -19
+            stagger: 7
+            column_net: Col1
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED4
+                led_next: LED5
+            home:
+              key:
+                led_prev: LED11
+                led_next: LED12
+            top:
+              key:
+                led_prev: LED14
+                led_next: LED15
+            number:
+              key:
+                led_prev: LED21
+                led_next: LED22
+          name: ring
+        middle:
+          key:
+            stagger: 5
+            column_net: Col2
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED5
+                led_next: LED6
+            home:
+              key:
+                led_prev: LED10
+                led_next: LED11
+            top:
+              key:
+                led_prev: LED15
+                led_next: LED16
+            number:
+              key:
+                led_prev: LED20
+                led_next: LED21
+          name: middle
+        index:
+          key:
+            stagger: -6
+            column_net: Col3
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED6
+                led_next: LED7
+            home:
+              key:
+                led_prev: LED9
+                led_next: LED10
+            top:
+              key:
+                led_prev: LED16
+                led_next: LED17
+            number:
+              key:
+                led_prev: LED19
+                led_next: LED20
+          name: index
+        inner:
+          key:
+            stagger: -2
+            column_net: Col4
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED7
+                led_next: LED8
+            home:
+              key:
+                led_prev: LED8
+                led_next: LED9
+            top:
+              key:
+                led_prev: LED17
+                led_next: LED18
+            number:
+              key:
+                led_prev: LED18
+                led_next: LED19
+          name: inner
+      rows:
+        bottom:
+          row_net: Row3
+        home:
+          row_net: Row2
+        top:
+          row_net: Row1
+        number:
+          row_net: Row0
+      name: key_matrix
+    col:
+      key:
+        splay: -2.5
+        origin:
+          - -12
+          - -19
+        stagger: 7
+        column_net: Col1
+        tags:
+          - key
+          - main
+      rows:
+        bottom:
+          key:
+            led_prev: LED4
+            led_next: LED5
+        home:
+          key:
+            led_prev: LED11
+            led_next: LED12
+        top:
+          key:
+            led_prev: LED14
+            led_next: LED15
+        number:
+          key:
+            led_prev: LED21
+            led_next: LED22
+      name: ring
+    row: number
+    mirrored: true
+    bind:
+      - 0
+      - 10
+      - 10
+      - 0
+mirror_key_matrix_middle_bottom:
+  x: 361.4832298
+  'y': -87.6832429
+  r: -0.0
+  meta:
+    stagger: 5
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mirror_middle_bottom
+    name: mirror_key_matrix_middle_bottom
+    column_net: Col2
+    tags:
+      - key
+      - main
+    row_net: Row3
+    key:
+      led_prev: LED5
+      led_next: LED6
+    zone:
+      columns:
+        pinky:
+          key:
+            column_net: Col0
+            tags:
+              - key
+              - pinky
+          rows:
+            bottom:
+              key:
+                led_prev: LED3
+                led_next: LED4
+            home:
+              key:
+                led_prev: LED12
+                led_next: LED13
+            top:
+              key:
+                led_prev: LED13
+                led_next: LED14
+            number:
+              key:
+                led_prev: LED22
+                led_next: LED_BACKLIGHT_1
+          name: pinky
+        ring:
+          key:
+            splay: -2.5
+            origin:
+              - -12
+              - -19
+            stagger: 7
+            column_net: Col1
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED4
+                led_next: LED5
+            home:
+              key:
+                led_prev: LED11
+                led_next: LED12
+            top:
+              key:
+                led_prev: LED14
+                led_next: LED15
+            number:
+              key:
+                led_prev: LED21
+                led_next: LED22
+          name: ring
+        middle:
+          key:
+            stagger: 5
+            column_net: Col2
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED5
+                led_next: LED6
+            home:
+              key:
+                led_prev: LED10
+                led_next: LED11
+            top:
+              key:
+                led_prev: LED15
+                led_next: LED16
+            number:
+              key:
+                led_prev: LED20
+                led_next: LED21
+          name: middle
+        index:
+          key:
+            stagger: -6
+            column_net: Col3
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED6
+                led_next: LED7
+            home:
+              key:
+                led_prev: LED9
+                led_next: LED10
+            top:
+              key:
+                led_prev: LED16
+                led_next: LED17
+            number:
+              key:
+                led_prev: LED19
+                led_next: LED20
+          name: index
+        inner:
+          key:
+            stagger: -2
+            column_net: Col4
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED7
+                led_next: LED8
+            home:
+              key:
+                led_prev: LED8
+                led_next: LED9
+            top:
+              key:
+                led_prev: LED17
+                led_next: LED18
+            number:
+              key:
+                led_prev: LED18
+                led_next: LED19
+          name: inner
+      rows:
+        bottom:
+          row_net: Row3
+        home:
+          row_net: Row2
+        top:
+          row_net: Row1
+        number:
+          row_net: Row0
+      name: key_matrix
+    col:
+      key:
+        stagger: 5
+        column_net: Col2
+        tags:
+          - key
+          - main
+      rows:
+        bottom:
+          key:
+            led_prev: LED5
+            led_next: LED6
+        home:
+          key:
+            led_prev: LED10
+            led_next: LED11
+        top:
+          key:
+            led_prev: LED15
+            led_next: LED16
+        number:
+          key:
+            led_prev: LED20
+            led_next: LED21
+      name: middle
+    row: bottom
+    mirrored: true
+    bind:
+      - 10
+      - 10
+      - 0
+      - 10
+mirror_key_matrix_middle_home:
+  x: 361.4832298
+  'y': -68.6832429
+  r: -0.0
+  meta:
+    stagger: 5
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mirror_middle_home
+    name: mirror_key_matrix_middle_home
+    column_net: Col2
+    tags:
+      - key
+      - main
+    row_net: Row2
+    key:
+      led_prev: LED10
+      led_next: LED11
+    zone:
+      columns:
+        pinky:
+          key:
+            column_net: Col0
+            tags:
+              - key
+              - pinky
+          rows:
+            bottom:
+              key:
+                led_prev: LED3
+                led_next: LED4
+            home:
+              key:
+                led_prev: LED12
+                led_next: LED13
+            top:
+              key:
+                led_prev: LED13
+                led_next: LED14
+            number:
+              key:
+                led_prev: LED22
+                led_next: LED_BACKLIGHT_1
+          name: pinky
+        ring:
+          key:
+            splay: -2.5
+            origin:
+              - -12
+              - -19
+            stagger: 7
+            column_net: Col1
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED4
+                led_next: LED5
+            home:
+              key:
+                led_prev: LED11
+                led_next: LED12
+            top:
+              key:
+                led_prev: LED14
+                led_next: LED15
+            number:
+              key:
+                led_prev: LED21
+                led_next: LED22
+          name: ring
+        middle:
+          key:
+            stagger: 5
+            column_net: Col2
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED5
+                led_next: LED6
+            home:
+              key:
+                led_prev: LED10
+                led_next: LED11
+            top:
+              key:
+                led_prev: LED15
+                led_next: LED16
+            number:
+              key:
+                led_prev: LED20
+                led_next: LED21
+          name: middle
+        index:
+          key:
+            stagger: -6
+            column_net: Col3
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED6
+                led_next: LED7
+            home:
+              key:
+                led_prev: LED9
+                led_next: LED10
+            top:
+              key:
+                led_prev: LED16
+                led_next: LED17
+            number:
+              key:
+                led_prev: LED19
+                led_next: LED20
+          name: index
+        inner:
+          key:
+            stagger: -2
+            column_net: Col4
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED7
+                led_next: LED8
+            home:
+              key:
+                led_prev: LED8
+                led_next: LED9
+            top:
+              key:
+                led_prev: LED17
+                led_next: LED18
+            number:
+              key:
+                led_prev: LED18
+                led_next: LED19
+          name: inner
+      rows:
+        bottom:
+          row_net: Row3
+        home:
+          row_net: Row2
+        top:
+          row_net: Row1
+        number:
+          row_net: Row0
+      name: key_matrix
+    col:
+      key:
+        stagger: 5
+        column_net: Col2
+        tags:
+          - key
+          - main
+      rows:
+        bottom:
+          key:
+            led_prev: LED5
+            led_next: LED6
+        home:
+          key:
+            led_prev: LED10
+            led_next: LED11
+        top:
+          key:
+            led_prev: LED15
+            led_next: LED16
+        number:
+          key:
+            led_prev: LED20
+            led_next: LED21
+      name: middle
+    row: home
+    mirrored: true
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+mirror_key_matrix_middle_top:
+  x: 361.4832298
+  'y': -49.683242899999996
+  r: -0.0
+  meta:
+    stagger: 5
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mirror_middle_top
+    name: mirror_key_matrix_middle_top
+    column_net: Col2
+    tags:
+      - key
+      - main
+    row_net: Row1
+    key:
+      led_prev: LED15
+      led_next: LED16
+    zone:
+      columns:
+        pinky:
+          key:
+            column_net: Col0
+            tags:
+              - key
+              - pinky
+          rows:
+            bottom:
+              key:
+                led_prev: LED3
+                led_next: LED4
+            home:
+              key:
+                led_prev: LED12
+                led_next: LED13
+            top:
+              key:
+                led_prev: LED13
+                led_next: LED14
+            number:
+              key:
+                led_prev: LED22
+                led_next: LED_BACKLIGHT_1
+          name: pinky
+        ring:
+          key:
+            splay: -2.5
+            origin:
+              - -12
+              - -19
+            stagger: 7
+            column_net: Col1
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED4
+                led_next: LED5
+            home:
+              key:
+                led_prev: LED11
+                led_next: LED12
+            top:
+              key:
+                led_prev: LED14
+                led_next: LED15
+            number:
+              key:
+                led_prev: LED21
+                led_next: LED22
+          name: ring
+        middle:
+          key:
+            stagger: 5
+            column_net: Col2
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED5
+                led_next: LED6
+            home:
+              key:
+                led_prev: LED10
+                led_next: LED11
+            top:
+              key:
+                led_prev: LED15
+                led_next: LED16
+            number:
+              key:
+                led_prev: LED20
+                led_next: LED21
+          name: middle
+        index:
+          key:
+            stagger: -6
+            column_net: Col3
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED6
+                led_next: LED7
+            home:
+              key:
+                led_prev: LED9
+                led_next: LED10
+            top:
+              key:
+                led_prev: LED16
+                led_next: LED17
+            number:
+              key:
+                led_prev: LED19
+                led_next: LED20
+          name: index
+        inner:
+          key:
+            stagger: -2
+            column_net: Col4
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED7
+                led_next: LED8
+            home:
+              key:
+                led_prev: LED8
+                led_next: LED9
+            top:
+              key:
+                led_prev: LED17
+                led_next: LED18
+            number:
+              key:
+                led_prev: LED18
+                led_next: LED19
+          name: inner
+      rows:
+        bottom:
+          row_net: Row3
+        home:
+          row_net: Row2
+        top:
+          row_net: Row1
+        number:
+          row_net: Row0
+      name: key_matrix
+    col:
+      key:
+        stagger: 5
+        column_net: Col2
+        tags:
+          - key
+          - main
+      rows:
+        bottom:
+          key:
+            led_prev: LED5
+            led_next: LED6
+        home:
+          key:
+            led_prev: LED10
+            led_next: LED11
+        top:
+          key:
+            led_prev: LED15
+            led_next: LED16
+        number:
+          key:
+            led_prev: LED20
+            led_next: LED21
+      name: middle
+    row: top
+    mirrored: true
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+mirror_key_matrix_middle_number:
+  x: 361.4832298
+  'y': -30.683242899999996
+  r: -0.0
+  meta:
+    stagger: 5
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mirror_middle_number
+    name: mirror_key_matrix_middle_number
+    column_net: Col2
+    tags:
+      - key
+      - main
+    row_net: Row0
+    key:
+      led_prev: LED20
+      led_next: LED21
+    zone:
+      columns:
+        pinky:
+          key:
+            column_net: Col0
+            tags:
+              - key
+              - pinky
+          rows:
+            bottom:
+              key:
+                led_prev: LED3
+                led_next: LED4
+            home:
+              key:
+                led_prev: LED12
+                led_next: LED13
+            top:
+              key:
+                led_prev: LED13
+                led_next: LED14
+            number:
+              key:
+                led_prev: LED22
+                led_next: LED_BACKLIGHT_1
+          name: pinky
+        ring:
+          key:
+            splay: -2.5
+            origin:
+              - -12
+              - -19
+            stagger: 7
+            column_net: Col1
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED4
+                led_next: LED5
+            home:
+              key:
+                led_prev: LED11
+                led_next: LED12
+            top:
+              key:
+                led_prev: LED14
+                led_next: LED15
+            number:
+              key:
+                led_prev: LED21
+                led_next: LED22
+          name: ring
+        middle:
+          key:
+            stagger: 5
+            column_net: Col2
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED5
+                led_next: LED6
+            home:
+              key:
+                led_prev: LED10
+                led_next: LED11
+            top:
+              key:
+                led_prev: LED15
+                led_next: LED16
+            number:
+              key:
+                led_prev: LED20
+                led_next: LED21
+          name: middle
+        index:
+          key:
+            stagger: -6
+            column_net: Col3
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED6
+                led_next: LED7
+            home:
+              key:
+                led_prev: LED9
+                led_next: LED10
+            top:
+              key:
+                led_prev: LED16
+                led_next: LED17
+            number:
+              key:
+                led_prev: LED19
+                led_next: LED20
+          name: index
+        inner:
+          key:
+            stagger: -2
+            column_net: Col4
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED7
+                led_next: LED8
+            home:
+              key:
+                led_prev: LED8
+                led_next: LED9
+            top:
+              key:
+                led_prev: LED17
+                led_next: LED18
+            number:
+              key:
+                led_prev: LED18
+                led_next: LED19
+          name: inner
+      rows:
+        bottom:
+          row_net: Row3
+        home:
+          row_net: Row2
+        top:
+          row_net: Row1
+        number:
+          row_net: Row0
+      name: key_matrix
+    col:
+      key:
+        stagger: 5
+        column_net: Col2
+        tags:
+          - key
+          - main
+      rows:
+        bottom:
+          key:
+            led_prev: LED5
+            led_next: LED6
+        home:
+          key:
+            led_prev: LED10
+            led_next: LED11
+        top:
+          key:
+            led_prev: LED15
+            led_next: LED16
+        number:
+          key:
+            led_prev: LED20
+            led_next: LED21
+      name: middle
+    row: number
+    mirrored: true
+    bind:
+      - 0
+      - 0
+      - 10
+      - 0
+mirror_key_matrix_index_bottom:
+  x: 342.4832298
+  'y': -93.683243
+  r: -0.0
+  meta:
+    stagger: -6
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mirror_index_bottom
+    name: mirror_key_matrix_index_bottom
+    column_net: Col3
+    tags:
+      - key
+      - main
+    row_net: Row3
+    key:
+      led_prev: LED6
+      led_next: LED7
+    zone:
+      columns:
+        pinky:
+          key:
+            column_net: Col0
+            tags:
+              - key
+              - pinky
+          rows:
+            bottom:
+              key:
+                led_prev: LED3
+                led_next: LED4
+            home:
+              key:
+                led_prev: LED12
+                led_next: LED13
+            top:
+              key:
+                led_prev: LED13
+                led_next: LED14
+            number:
+              key:
+                led_prev: LED22
+                led_next: LED_BACKLIGHT_1
+          name: pinky
+        ring:
+          key:
+            splay: -2.5
+            origin:
+              - -12
+              - -19
+            stagger: 7
+            column_net: Col1
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED4
+                led_next: LED5
+            home:
+              key:
+                led_prev: LED11
+                led_next: LED12
+            top:
+              key:
+                led_prev: LED14
+                led_next: LED15
+            number:
+              key:
+                led_prev: LED21
+                led_next: LED22
+          name: ring
+        middle:
+          key:
+            stagger: 5
+            column_net: Col2
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED5
+                led_next: LED6
+            home:
+              key:
+                led_prev: LED10
+                led_next: LED11
+            top:
+              key:
+                led_prev: LED15
+                led_next: LED16
+            number:
+              key:
+                led_prev: LED20
+                led_next: LED21
+          name: middle
+        index:
+          key:
+            stagger: -6
+            column_net: Col3
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED6
+                led_next: LED7
+            home:
+              key:
+                led_prev: LED9
+                led_next: LED10
+            top:
+              key:
+                led_prev: LED16
+                led_next: LED17
+            number:
+              key:
+                led_prev: LED19
+                led_next: LED20
+          name: index
+        inner:
+          key:
+            stagger: -2
+            column_net: Col4
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED7
+                led_next: LED8
+            home:
+              key:
+                led_prev: LED8
+                led_next: LED9
+            top:
+              key:
+                led_prev: LED17
+                led_next: LED18
+            number:
+              key:
+                led_prev: LED18
+                led_next: LED19
+          name: inner
+      rows:
+        bottom:
+          row_net: Row3
+        home:
+          row_net: Row2
+        top:
+          row_net: Row1
+        number:
+          row_net: Row0
+      name: key_matrix
+    col:
+      key:
+        stagger: -6
+        column_net: Col3
+        tags:
+          - key
+          - main
+      rows:
+        bottom:
+          key:
+            led_prev: LED6
+            led_next: LED7
+        home:
+          key:
+            led_prev: LED9
+            led_next: LED10
+        top:
+          key:
+            led_prev: LED16
+            led_next: LED17
+        number:
+          key:
+            led_prev: LED19
+            led_next: LED20
+      name: index
+    row: bottom
+    mirrored: true
+    bind:
+      - 10
+      - 10
+      - 0
+      - 0
+mirror_key_matrix_index_home:
+  x: 342.4832298
+  'y': -74.683243
+  r: -0.0
+  meta:
+    stagger: -6
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mirror_index_home
+    name: mirror_key_matrix_index_home
+    column_net: Col3
+    tags:
+      - key
+      - main
+    row_net: Row2
+    key:
+      led_prev: LED9
+      led_next: LED10
+    zone:
+      columns:
+        pinky:
+          key:
+            column_net: Col0
+            tags:
+              - key
+              - pinky
+          rows:
+            bottom:
+              key:
+                led_prev: LED3
+                led_next: LED4
+            home:
+              key:
+                led_prev: LED12
+                led_next: LED13
+            top:
+              key:
+                led_prev: LED13
+                led_next: LED14
+            number:
+              key:
+                led_prev: LED22
+                led_next: LED_BACKLIGHT_1
+          name: pinky
+        ring:
+          key:
+            splay: -2.5
+            origin:
+              - -12
+              - -19
+            stagger: 7
+            column_net: Col1
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED4
+                led_next: LED5
+            home:
+              key:
+                led_prev: LED11
+                led_next: LED12
+            top:
+              key:
+                led_prev: LED14
+                led_next: LED15
+            number:
+              key:
+                led_prev: LED21
+                led_next: LED22
+          name: ring
+        middle:
+          key:
+            stagger: 5
+            column_net: Col2
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED5
+                led_next: LED6
+            home:
+              key:
+                led_prev: LED10
+                led_next: LED11
+            top:
+              key:
+                led_prev: LED15
+                led_next: LED16
+            number:
+              key:
+                led_prev: LED20
+                led_next: LED21
+          name: middle
+        index:
+          key:
+            stagger: -6
+            column_net: Col3
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED6
+                led_next: LED7
+            home:
+              key:
+                led_prev: LED9
+                led_next: LED10
+            top:
+              key:
+                led_prev: LED16
+                led_next: LED17
+            number:
+              key:
+                led_prev: LED19
+                led_next: LED20
+          name: index
+        inner:
+          key:
+            stagger: -2
+            column_net: Col4
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED7
+                led_next: LED8
+            home:
+              key:
+                led_prev: LED8
+                led_next: LED9
+            top:
+              key:
+                led_prev: LED17
+                led_next: LED18
+            number:
+              key:
+                led_prev: LED18
+                led_next: LED19
+          name: inner
+      rows:
+        bottom:
+          row_net: Row3
+        home:
+          row_net: Row2
+        top:
+          row_net: Row1
+        number:
+          row_net: Row0
+      name: key_matrix
+    col:
+      key:
+        stagger: -6
+        column_net: Col3
+        tags:
+          - key
+          - main
+      rows:
+        bottom:
+          key:
+            led_prev: LED6
+            led_next: LED7
+        home:
+          key:
+            led_prev: LED9
+            led_next: LED10
+        top:
+          key:
+            led_prev: LED16
+            led_next: LED17
+        number:
+          key:
+            led_prev: LED19
+            led_next: LED20
+      name: index
+    row: home
+    mirrored: true
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+mirror_key_matrix_index_top:
+  x: 342.4832298
+  'y': -55.683243000000004
+  r: -0.0
+  meta:
+    stagger: -6
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mirror_index_top
+    name: mirror_key_matrix_index_top
+    column_net: Col3
+    tags:
+      - key
+      - main
+    row_net: Row1
+    key:
+      led_prev: LED16
+      led_next: LED17
+    zone:
+      columns:
+        pinky:
+          key:
+            column_net: Col0
+            tags:
+              - key
+              - pinky
+          rows:
+            bottom:
+              key:
+                led_prev: LED3
+                led_next: LED4
+            home:
+              key:
+                led_prev: LED12
+                led_next: LED13
+            top:
+              key:
+                led_prev: LED13
+                led_next: LED14
+            number:
+              key:
+                led_prev: LED22
+                led_next: LED_BACKLIGHT_1
+          name: pinky
+        ring:
+          key:
+            splay: -2.5
+            origin:
+              - -12
+              - -19
+            stagger: 7
+            column_net: Col1
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED4
+                led_next: LED5
+            home:
+              key:
+                led_prev: LED11
+                led_next: LED12
+            top:
+              key:
+                led_prev: LED14
+                led_next: LED15
+            number:
+              key:
+                led_prev: LED21
+                led_next: LED22
+          name: ring
+        middle:
+          key:
+            stagger: 5
+            column_net: Col2
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED5
+                led_next: LED6
+            home:
+              key:
+                led_prev: LED10
+                led_next: LED11
+            top:
+              key:
+                led_prev: LED15
+                led_next: LED16
+            number:
+              key:
+                led_prev: LED20
+                led_next: LED21
+          name: middle
+        index:
+          key:
+            stagger: -6
+            column_net: Col3
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED6
+                led_next: LED7
+            home:
+              key:
+                led_prev: LED9
+                led_next: LED10
+            top:
+              key:
+                led_prev: LED16
+                led_next: LED17
+            number:
+              key:
+                led_prev: LED19
+                led_next: LED20
+          name: index
+        inner:
+          key:
+            stagger: -2
+            column_net: Col4
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED7
+                led_next: LED8
+            home:
+              key:
+                led_prev: LED8
+                led_next: LED9
+            top:
+              key:
+                led_prev: LED17
+                led_next: LED18
+            number:
+              key:
+                led_prev: LED18
+                led_next: LED19
+          name: inner
+      rows:
+        bottom:
+          row_net: Row3
+        home:
+          row_net: Row2
+        top:
+          row_net: Row1
+        number:
+          row_net: Row0
+      name: key_matrix
+    col:
+      key:
+        stagger: -6
+        column_net: Col3
+        tags:
+          - key
+          - main
+      rows:
+        bottom:
+          key:
+            led_prev: LED6
+            led_next: LED7
+        home:
+          key:
+            led_prev: LED9
+            led_next: LED10
+        top:
+          key:
+            led_prev: LED16
+            led_next: LED17
+        number:
+          key:
+            led_prev: LED19
+            led_next: LED20
+      name: index
+    row: top
+    mirrored: true
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+mirror_key_matrix_index_number:
+  x: 342.4832298
+  'y': -36.683243000000004
+  r: -0.0
+  meta:
+    stagger: -6
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mirror_index_number
+    name: mirror_key_matrix_index_number
+    column_net: Col3
+    tags:
+      - key
+      - main
+    row_net: Row0
+    key:
+      led_prev: LED19
+      led_next: LED20
+    zone:
+      columns:
+        pinky:
+          key:
+            column_net: Col0
+            tags:
+              - key
+              - pinky
+          rows:
+            bottom:
+              key:
+                led_prev: LED3
+                led_next: LED4
+            home:
+              key:
+                led_prev: LED12
+                led_next: LED13
+            top:
+              key:
+                led_prev: LED13
+                led_next: LED14
+            number:
+              key:
+                led_prev: LED22
+                led_next: LED_BACKLIGHT_1
+          name: pinky
+        ring:
+          key:
+            splay: -2.5
+            origin:
+              - -12
+              - -19
+            stagger: 7
+            column_net: Col1
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED4
+                led_next: LED5
+            home:
+              key:
+                led_prev: LED11
+                led_next: LED12
+            top:
+              key:
+                led_prev: LED14
+                led_next: LED15
+            number:
+              key:
+                led_prev: LED21
+                led_next: LED22
+          name: ring
+        middle:
+          key:
+            stagger: 5
+            column_net: Col2
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED5
+                led_next: LED6
+            home:
+              key:
+                led_prev: LED10
+                led_next: LED11
+            top:
+              key:
+                led_prev: LED15
+                led_next: LED16
+            number:
+              key:
+                led_prev: LED20
+                led_next: LED21
+          name: middle
+        index:
+          key:
+            stagger: -6
+            column_net: Col3
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED6
+                led_next: LED7
+            home:
+              key:
+                led_prev: LED9
+                led_next: LED10
+            top:
+              key:
+                led_prev: LED16
+                led_next: LED17
+            number:
+              key:
+                led_prev: LED19
+                led_next: LED20
+          name: index
+        inner:
+          key:
+            stagger: -2
+            column_net: Col4
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED7
+                led_next: LED8
+            home:
+              key:
+                led_prev: LED8
+                led_next: LED9
+            top:
+              key:
+                led_prev: LED17
+                led_next: LED18
+            number:
+              key:
+                led_prev: LED18
+                led_next: LED19
+          name: inner
+      rows:
+        bottom:
+          row_net: Row3
+        home:
+          row_net: Row2
+        top:
+          row_net: Row1
+        number:
+          row_net: Row0
+      name: key_matrix
+    col:
+      key:
+        stagger: -6
+        column_net: Col3
+        tags:
+          - key
+          - main
+      rows:
+        bottom:
+          key:
+            led_prev: LED6
+            led_next: LED7
+        home:
+          key:
+            led_prev: LED9
+            led_next: LED10
+        top:
+          key:
+            led_prev: LED16
+            led_next: LED17
+        number:
+          key:
+            led_prev: LED19
+            led_next: LED20
+      name: index
+    row: number
+    mirrored: true
+    bind:
+      - 0
+      - 0
+      - 10
+      - 10
+mirror_key_matrix_inner_bottom:
+  x: 323.4832298
+  'y': -95.68324299999999
+  r: -0.0
+  meta:
+    stagger: -2
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mirror_inner_bottom
+    name: mirror_key_matrix_inner_bottom
+    column_net: Col4
+    tags:
+      - key
+      - main
+    row_net: Row3
+    key:
+      led_prev: LED7
+      led_next: LED8
+    zone:
+      columns:
+        pinky:
+          key:
+            column_net: Col0
+            tags:
+              - key
+              - pinky
+          rows:
+            bottom:
+              key:
+                led_prev: LED3
+                led_next: LED4
+            home:
+              key:
+                led_prev: LED12
+                led_next: LED13
+            top:
+              key:
+                led_prev: LED13
+                led_next: LED14
+            number:
+              key:
+                led_prev: LED22
+                led_next: LED_BACKLIGHT_1
+          name: pinky
+        ring:
+          key:
+            splay: -2.5
+            origin:
+              - -12
+              - -19
+            stagger: 7
+            column_net: Col1
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED4
+                led_next: LED5
+            home:
+              key:
+                led_prev: LED11
+                led_next: LED12
+            top:
+              key:
+                led_prev: LED14
+                led_next: LED15
+            number:
+              key:
+                led_prev: LED21
+                led_next: LED22
+          name: ring
+        middle:
+          key:
+            stagger: 5
+            column_net: Col2
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED5
+                led_next: LED6
+            home:
+              key:
+                led_prev: LED10
+                led_next: LED11
+            top:
+              key:
+                led_prev: LED15
+                led_next: LED16
+            number:
+              key:
+                led_prev: LED20
+                led_next: LED21
+          name: middle
+        index:
+          key:
+            stagger: -6
+            column_net: Col3
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED6
+                led_next: LED7
+            home:
+              key:
+                led_prev: LED9
+                led_next: LED10
+            top:
+              key:
+                led_prev: LED16
+                led_next: LED17
+            number:
+              key:
+                led_prev: LED19
+                led_next: LED20
+          name: index
+        inner:
+          key:
+            stagger: -2
+            column_net: Col4
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED7
+                led_next: LED8
+            home:
+              key:
+                led_prev: LED8
+                led_next: LED9
+            top:
+              key:
+                led_prev: LED17
+                led_next: LED18
+            number:
+              key:
+                led_prev: LED18
+                led_next: LED19
+          name: inner
+      rows:
+        bottom:
+          row_net: Row3
+        home:
+          row_net: Row2
+        top:
+          row_net: Row1
+        number:
+          row_net: Row0
+      name: key_matrix
+    col:
+      key:
+        stagger: -2
+        column_net: Col4
+        tags:
+          - key
+          - main
+      rows:
+        bottom:
+          key:
+            led_prev: LED7
+            led_next: LED8
+        home:
+          key:
+            led_prev: LED8
+            led_next: LED9
+        top:
+          key:
+            led_prev: LED17
+            led_next: LED18
+        number:
+          key:
+            led_prev: LED18
+            led_next: LED19
+      name: inner
+    row: bottom
+    mirrored: true
+    bind:
+      - 10
+      - 0
+      - 0
+      - 0
+mirror_key_matrix_inner_home:
+  x: 323.4832298
+  'y': -76.68324299999999
+  r: -0.0
+  meta:
+    stagger: -2
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mirror_inner_home
+    name: mirror_key_matrix_inner_home
+    column_net: Col4
+    tags:
+      - key
+      - main
+    row_net: Row2
+    key:
+      led_prev: LED8
+      led_next: LED9
+    zone:
+      columns:
+        pinky:
+          key:
+            column_net: Col0
+            tags:
+              - key
+              - pinky
+          rows:
+            bottom:
+              key:
+                led_prev: LED3
+                led_next: LED4
+            home:
+              key:
+                led_prev: LED12
+                led_next: LED13
+            top:
+              key:
+                led_prev: LED13
+                led_next: LED14
+            number:
+              key:
+                led_prev: LED22
+                led_next: LED_BACKLIGHT_1
+          name: pinky
+        ring:
+          key:
+            splay: -2.5
+            origin:
+              - -12
+              - -19
+            stagger: 7
+            column_net: Col1
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED4
+                led_next: LED5
+            home:
+              key:
+                led_prev: LED11
+                led_next: LED12
+            top:
+              key:
+                led_prev: LED14
+                led_next: LED15
+            number:
+              key:
+                led_prev: LED21
+                led_next: LED22
+          name: ring
+        middle:
+          key:
+            stagger: 5
+            column_net: Col2
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED5
+                led_next: LED6
+            home:
+              key:
+                led_prev: LED10
+                led_next: LED11
+            top:
+              key:
+                led_prev: LED15
+                led_next: LED16
+            number:
+              key:
+                led_prev: LED20
+                led_next: LED21
+          name: middle
+        index:
+          key:
+            stagger: -6
+            column_net: Col3
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED6
+                led_next: LED7
+            home:
+              key:
+                led_prev: LED9
+                led_next: LED10
+            top:
+              key:
+                led_prev: LED16
+                led_next: LED17
+            number:
+              key:
+                led_prev: LED19
+                led_next: LED20
+          name: index
+        inner:
+          key:
+            stagger: -2
+            column_net: Col4
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED7
+                led_next: LED8
+            home:
+              key:
+                led_prev: LED8
+                led_next: LED9
+            top:
+              key:
+                led_prev: LED17
+                led_next: LED18
+            number:
+              key:
+                led_prev: LED18
+                led_next: LED19
+          name: inner
+      rows:
+        bottom:
+          row_net: Row3
+        home:
+          row_net: Row2
+        top:
+          row_net: Row1
+        number:
+          row_net: Row0
+      name: key_matrix
+    col:
+      key:
+        stagger: -2
+        column_net: Col4
+        tags:
+          - key
+          - main
+      rows:
+        bottom:
+          key:
+            led_prev: LED7
+            led_next: LED8
+        home:
+          key:
+            led_prev: LED8
+            led_next: LED9
+        top:
+          key:
+            led_prev: LED17
+            led_next: LED18
+        number:
+          key:
+            led_prev: LED18
+            led_next: LED19
+      name: inner
+    row: home
+    mirrored: true
+    bind:
+      - 10
+      - 0
+      - 10
+      - 10
+mirror_key_matrix_inner_top:
+  x: 323.4832298
+  'y': -57.68324299999999
+  r: -0.0
+  meta:
+    stagger: -2
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mirror_inner_top
+    name: mirror_key_matrix_inner_top
+    column_net: Col4
+    tags:
+      - key
+      - main
+    row_net: Row1
+    key:
+      led_prev: LED17
+      led_next: LED18
+    zone:
+      columns:
+        pinky:
+          key:
+            column_net: Col0
+            tags:
+              - key
+              - pinky
+          rows:
+            bottom:
+              key:
+                led_prev: LED3
+                led_next: LED4
+            home:
+              key:
+                led_prev: LED12
+                led_next: LED13
+            top:
+              key:
+                led_prev: LED13
+                led_next: LED14
+            number:
+              key:
+                led_prev: LED22
+                led_next: LED_BACKLIGHT_1
+          name: pinky
+        ring:
+          key:
+            splay: -2.5
+            origin:
+              - -12
+              - -19
+            stagger: 7
+            column_net: Col1
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED4
+                led_next: LED5
+            home:
+              key:
+                led_prev: LED11
+                led_next: LED12
+            top:
+              key:
+                led_prev: LED14
+                led_next: LED15
+            number:
+              key:
+                led_prev: LED21
+                led_next: LED22
+          name: ring
+        middle:
+          key:
+            stagger: 5
+            column_net: Col2
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED5
+                led_next: LED6
+            home:
+              key:
+                led_prev: LED10
+                led_next: LED11
+            top:
+              key:
+                led_prev: LED15
+                led_next: LED16
+            number:
+              key:
+                led_prev: LED20
+                led_next: LED21
+          name: middle
+        index:
+          key:
+            stagger: -6
+            column_net: Col3
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED6
+                led_next: LED7
+            home:
+              key:
+                led_prev: LED9
+                led_next: LED10
+            top:
+              key:
+                led_prev: LED16
+                led_next: LED17
+            number:
+              key:
+                led_prev: LED19
+                led_next: LED20
+          name: index
+        inner:
+          key:
+            stagger: -2
+            column_net: Col4
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED7
+                led_next: LED8
+            home:
+              key:
+                led_prev: LED8
+                led_next: LED9
+            top:
+              key:
+                led_prev: LED17
+                led_next: LED18
+            number:
+              key:
+                led_prev: LED18
+                led_next: LED19
+          name: inner
+      rows:
+        bottom:
+          row_net: Row3
+        home:
+          row_net: Row2
+        top:
+          row_net: Row1
+        number:
+          row_net: Row0
+      name: key_matrix
+    col:
+      key:
+        stagger: -2
+        column_net: Col4
+        tags:
+          - key
+          - main
+      rows:
+        bottom:
+          key:
+            led_prev: LED7
+            led_next: LED8
+        home:
+          key:
+            led_prev: LED8
+            led_next: LED9
+        top:
+          key:
+            led_prev: LED17
+            led_next: LED18
+        number:
+          key:
+            led_prev: LED18
+            led_next: LED19
+      name: inner
+    row: top
+    mirrored: true
+    bind:
+      - 10
+      - 0
+      - 10
+      - 10
+mirror_key_matrix_inner_number:
+  x: 323.4832298
+  'y': -38.68324299999999
+  r: -0.0
+  meta:
+    stagger: -2
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mirror_inner_number
+    name: mirror_key_matrix_inner_number
+    column_net: Col4
+    tags:
+      - key
+      - main
+    row_net: Row0
+    key:
+      led_prev: LED18
+      led_next: LED19
+    zone:
+      columns:
+        pinky:
+          key:
+            column_net: Col0
+            tags:
+              - key
+              - pinky
+          rows:
+            bottom:
+              key:
+                led_prev: LED3
+                led_next: LED4
+            home:
+              key:
+                led_prev: LED12
+                led_next: LED13
+            top:
+              key:
+                led_prev: LED13
+                led_next: LED14
+            number:
+              key:
+                led_prev: LED22
+                led_next: LED_BACKLIGHT_1
+          name: pinky
+        ring:
+          key:
+            splay: -2.5
+            origin:
+              - -12
+              - -19
+            stagger: 7
+            column_net: Col1
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED4
+                led_next: LED5
+            home:
+              key:
+                led_prev: LED11
+                led_next: LED12
+            top:
+              key:
+                led_prev: LED14
+                led_next: LED15
+            number:
+              key:
+                led_prev: LED21
+                led_next: LED22
+          name: ring
+        middle:
+          key:
+            stagger: 5
+            column_net: Col2
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED5
+                led_next: LED6
+            home:
+              key:
+                led_prev: LED10
+                led_next: LED11
+            top:
+              key:
+                led_prev: LED15
+                led_next: LED16
+            number:
+              key:
+                led_prev: LED20
+                led_next: LED21
+          name: middle
+        index:
+          key:
+            stagger: -6
+            column_net: Col3
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED6
+                led_next: LED7
+            home:
+              key:
+                led_prev: LED9
+                led_next: LED10
+            top:
+              key:
+                led_prev: LED16
+                led_next: LED17
+            number:
+              key:
+                led_prev: LED19
+                led_next: LED20
+          name: index
+        inner:
+          key:
+            stagger: -2
+            column_net: Col4
+            tags:
+              - key
+              - main
+          rows:
+            bottom:
+              key:
+                led_prev: LED7
+                led_next: LED8
+            home:
+              key:
+                led_prev: LED8
+                led_next: LED9
+            top:
+              key:
+                led_prev: LED17
+                led_next: LED18
+            number:
+              key:
+                led_prev: LED18
+                led_next: LED19
+          name: inner
+      rows:
+        bottom:
+          row_net: Row3
+        home:
+          row_net: Row2
+        top:
+          row_net: Row1
+        number:
+          row_net: Row0
+      name: key_matrix
+    col:
+      key:
+        stagger: -2
+        column_net: Col4
+        tags:
+          - key
+          - main
+      rows:
+        bottom:
+          key:
+            led_prev: LED7
+            led_next: LED8
+        home:
+          key:
+            led_prev: LED8
+            led_next: LED9
+        top:
+          key:
+            led_prev: LED17
+            led_next: LED18
+        number:
+          key:
+            led_prev: LED18
+            led_next: LED19
+      name: inner
+    row: number
+    mirrored: true
+    bind:
+      - 0
+      - 0
+      - 10
+      - 10
+key_thumbfan_near_thumb:
+  x: 157.5167702
+  'y': -115.683243
+  r: 0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: near_thumb
+    name: key_thumbfan_near_thumb
+    tags:
+      - key
+      - thumb_fan
+    column_net: Col2
+    row_net: Row4
+    key: &ref_26
+      led_prev: LED2
+      led_next: LED3
+    zone: &ref_29
+      key:
+        tags:
+          - key
+          - thumb_fan
+      columns:
+        near: &ref_27
+          key:
+            column_net: Col2
+          rows:
+            thumb:
+              key: *ref_26
+          name: near
+        home: &ref_30
+          key:
+            spread: 21.25
+            splay: -14
+            origin:
+              - -11.75
+              - -9
+            column_net: Col3
+          rows:
+            thumb:
+              key: &ref_28
+                led_prev: LED1
+                led_next: LED2
+          name: home
+        far: &ref_32
+          key:
+            spread: 21.25
+            splay: -15
+            origin:
+              - -9.5
+              - -9
+            column_net: Col4
+          rows:
+            thumb:
+              key: &ref_31
+                led_prev: LED
+                led_next: LED1
+          name: far
+      rows:
+        thumb:
+          row_net: Row4
+      name: key_thumbfan
+    col: *ref_27
+    row: thumb
+    mirrored: false
+    bind:
+      - 0
+      - 0
+      - 0
+      - 0
+key_thumbfan_home_thumb:
+  x: 180.595042
+  'y': -118.79316370000001
+  r: -14
+  meta:
+    stagger: 0
+    spread: 21.25
+    splay: -14
+    origin:
+      - -11.75
+      - -9
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: home_thumb
+    name: key_thumbfan_home_thumb
+    tags:
+      - key
+      - thumb_fan
+    column_net: Col3
+    row_net: Row4
+    key: *ref_28
+    zone: *ref_29
+    col: *ref_30
+    row: thumb
+    mirrored: false
+    bind:
+      - 0
+      - 0
+      - 0
+      - 0
+key_thumbfan_far_thumb:
+  x: 202.4908935
+  'y': -127.10252150000002
+  r: -29
+  meta:
+    stagger: 0
+    spread: 21.25
+    splay: -15
+    origin:
+      - -9.5
+      - -9
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: far_thumb
+    name: key_thumbfan_far_thumb
+    tags:
+      - key
+      - thumb_fan
+    column_net: Col4
+    row_net: Row4
+    key: *ref_31
+    zone: *ref_29
+    col: *ref_32
+    row: thumb
+    mirrored: false
+    bind:
+      - 0
+      - 0
+      - 0
+      - 0
+mirror_key_thumbfan_near_thumb:
+  x: 342.4832298
+  'y': -115.683243
+  r: -0.0
+  meta:
+    stagger: 0
+    spread: 19
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mirror_near_thumb
+    name: mirror_key_thumbfan_near_thumb
+    tags:
+      - key
+      - thumb_fan
+    column_net: Col2
+    row_net: Row4
+    key:
+      led_prev: LED2
+      led_next: LED3
+    zone:
+      key:
+        tags:
+          - key
+          - thumb_fan
+      columns:
+        near:
+          key:
+            column_net: Col2
+          rows:
+            thumb:
+              key:
+                led_prev: LED2
+                led_next: LED3
+          name: near
+        home:
+          key:
+            spread: 21.25
+            splay: -14
+            origin:
+              - -11.75
+              - -9
+            column_net: Col3
+          rows:
+            thumb:
+              key:
+                led_prev: LED1
+                led_next: LED2
+          name: home
+        far:
+          key:
+            spread: 21.25
+            splay: -15
+            origin:
+              - -9.5
+              - -9
+            column_net: Col4
+          rows:
+            thumb:
+              key:
+                led_prev: LED
+                led_next: LED1
+          name: far
+      rows:
+        thumb:
+          row_net: Row4
+      name: key_thumbfan
+    col:
+      key:
+        column_net: Col2
+      rows:
+        thumb:
+          key:
+            led_prev: LED2
+            led_next: LED3
+      name: near
+    row: thumb
+    mirrored: true
+    bind:
+      - 0
+      - 0
+      - 0
+      - 0
+mirror_key_thumbfan_home_thumb:
+  x: 319.40495799999997
+  'y': -118.79316370000001
+  r: 14
+  meta:
+    stagger: 0
+    spread: 21.25
+    splay: -14
+    origin:
+      - -11.75
+      - -9
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mirror_home_thumb
+    name: mirror_key_thumbfan_home_thumb
+    tags:
+      - key
+      - thumb_fan
+    column_net: Col3
+    row_net: Row4
+    key:
+      led_prev: LED1
+      led_next: LED2
+    zone:
+      key:
+        tags:
+          - key
+          - thumb_fan
+      columns:
+        near:
+          key:
+            column_net: Col2
+          rows:
+            thumb:
+              key:
+                led_prev: LED2
+                led_next: LED3
+          name: near
+        home:
+          key:
+            spread: 21.25
+            splay: -14
+            origin:
+              - -11.75
+              - -9
+            column_net: Col3
+          rows:
+            thumb:
+              key:
+                led_prev: LED1
+                led_next: LED2
+          name: home
+        far:
+          key:
+            spread: 21.25
+            splay: -15
+            origin:
+              - -9.5
+              - -9
+            column_net: Col4
+          rows:
+            thumb:
+              key:
+                led_prev: LED
+                led_next: LED1
+          name: far
+      rows:
+        thumb:
+          row_net: Row4
+      name: key_thumbfan
+    col:
+      key:
+        spread: 21.25
+        splay: -14
+        origin:
+          - -11.75
+          - -9
+        column_net: Col3
+      rows:
+        thumb:
+          key:
+            led_prev: LED1
+            led_next: LED2
+      name: home
+    row: thumb
+    mirrored: true
+    bind:
+      - 0
+      - 0
+      - 0
+      - 0
+mirror_key_thumbfan_far_thumb:
+  x: 297.50910650000003
+  'y': -127.10252150000002
+  r: 29
+  meta:
+    stagger: 0
+    spread: 21.25
+    splay: -15
+    origin:
+      - -9.5
+      - -9
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    adjust: {}
+    width: 18
+    height: 18
+    padding: 19
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mirror_far_thumb
+    name: mirror_key_thumbfan_far_thumb
+    tags:
+      - key
+      - thumb_fan
+    column_net: Col4
+    row_net: Row4
+    key:
+      led_prev: LED
+      led_next: LED1
+    zone:
+      key:
+        tags:
+          - key
+          - thumb_fan
+      columns:
+        near:
+          key:
+            column_net: Col2
+          rows:
+            thumb:
+              key:
+                led_prev: LED2
+                led_next: LED3
+          name: near
+        home:
+          key:
+            spread: 21.25
+            splay: -14
+            origin:
+              - -11.75
+              - -9
+            column_net: Col3
+          rows:
+            thumb:
+              key:
+                led_prev: LED1
+                led_next: LED2
+          name: home
+        far:
+          key:
+            spread: 21.25
+            splay: -15
+            origin:
+              - -9.5
+              - -9
+            column_net: Col4
+          rows:
+            thumb:
+              key:
+                led_prev: LED
+                led_next: LED1
+          name: far
+      rows:
+        thumb:
+          row_net: Row4
+      name: key_thumbfan
+    col:
+      key:
+        spread: 21.25
+        splay: -15
+        origin:
+          - -9.5
+          - -9
+        column_net: Col4
+      rows:
+        thumb:
+          key:
+            led_prev: LED
+            led_next: LED1
+      name: far
+    row: thumb
+    mirrored: true
+    bind:
+      - 0
+      - 0
+      - 0
+      - 0
